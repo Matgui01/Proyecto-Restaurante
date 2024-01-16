@@ -319,11 +319,12 @@ footer{
     }
 
     button {
-        font-size: 0.5rem;
+        font-size: 15px;
         padding: 0.5rem 1rem ;
     }
     .contenido-footer{    
-        flex-direction: row;    /**/
+        flex-direction: column; 
+        gap: 10px;
     }
     .contenido-footer p{
         font-size: small;
@@ -331,7 +332,14 @@ footer{
     .subir{
         font-size: x-large;
     }
-    }
+
+
+
+}
+
+    
+
+
 @media  (min-width: 1024px) {
     .nav_link{
         font-size: 1.5rem;
